@@ -1,3 +1,6 @@
+// . Write a typescript program which contains one function named as Fibonacci. 
+// That function accept one number from user and print Fibonacci series till that number
+
 function Fibonacci(num : number) : void
 {
     var x = 1, y = 1;

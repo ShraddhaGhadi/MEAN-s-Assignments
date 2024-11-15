@@ -1,3 +1,6 @@
+// . Write a typescript program which contains one function named as DisplayFactors. 
+// That function should accept one number and display factors of that number
+
 function DisplayFactors(num : number) : void
 {
     for(var i = 1; i <= num; i++){

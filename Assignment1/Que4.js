@@ -1,3 +1,5 @@
+// Write a typescript program which contains one function named as ChkPrime. That function 
+// should accept one number and it should return true if the given number is prime and otherwise return false.
 function ChkPrime(num) {
     if (num <= 1) {
         return false;
@@ -9,8 +11,8 @@ function ChkPrime(num) {
     }
     return true;
 }
-var num = 11;
-if (ChkPrime(11)) {
+var num = 12;
+if (ChkPrime(12)) {
     console.log("It is prime number");
 }
 else {
