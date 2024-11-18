@@ -1,0 +1,18 @@
+<app-child (myEvent)="childData = $event"></app-child>
+<h2>{{childData}}</h2>
+
+
+<h2> Demonstration of Inter Component Comunication</h2>
+<app-child [Pdata] ="Message" (myEvt)="DatafromChild = $event"></app-child>
+<h2>Message from child :{{DatafromChild}}</h2>
+
+<h1>With NgModel</h1>
+<input type="text" [(ngModel)]="InputValue">
+<h2>Length of the Input value : {{InputValue.length}}</h2>
+
+
+
+<h1>Without NgModel</h1>
+<input type="text" id="InpValue" >
+<h2>Length of the Input value : {{inputData.length}}</h2>
+<router-outlet />
