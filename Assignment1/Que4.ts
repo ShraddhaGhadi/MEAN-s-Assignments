@@ -14,8 +14,8 @@ function ChkPrime(num : number) : boolean
     return true;
 }
 
-var  num = 12;
-if(ChkPrime(12)){
+
+if(ChkPrime(7)){
     console.log("It is prime number");
 }else{
     console.log("It is not a prime number");

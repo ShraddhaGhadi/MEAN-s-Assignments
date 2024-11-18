@@ -12,7 +12,7 @@ function ChkPrime(num) {
     return true;
 }
 var num = 12;
-if (ChkPrime(12)) {
+if (ChkPrime(7)) {
     console.log("It is prime number");
 }
 else {

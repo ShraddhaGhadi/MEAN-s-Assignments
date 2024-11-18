@@ -1,7 +1,7 @@
-// . Write a typescript program which contains one function named as Fibonacci. 
+// Write a typescript program which contains one function named as Fibonacci. 
 // That function accept one number from user and print Fibonacci series till that number
 function Fibonacci(num) {
-    var x = 1, y = 1;
+    var x = 0, y = 1;
     console.log(x);
     for (var i = 2; y <= num; i++) {
         console.log(y);
