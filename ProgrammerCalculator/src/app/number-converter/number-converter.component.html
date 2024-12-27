@@ -1,0 +1,32 @@
+<div class="converter-container">
+    <h2>Number System Conversion</h2>
+    <div class="options">
+      <label class="d-flex">From</label>
+      <div class="d-flex justify-content-evenly">
+        <label><input type="radio" name="from" [(ngModel)]="fromBase" value="2" /> Binary</label>
+        <label><input type="radio" name="from" [(ngModel)]="fromBase" value="8" /> Octal</label>
+        <label><input type="radio" name="from" [(ngModel)]="fromBase" value="10" /> Decimal</label>
+        <label><input type="radio" name="from" [(ngModel)]="fromBase" value="16" /> Hex</label>
+      </div>
+      <label class="d-flex">To</label>
+      <div class="d-flex justify-content-evenly">
+        <label><input type="radio" name="to" [(ngModel)]="toBase" value="2" /> Binary</label>
+        <label><input type="radio" name="to" [(ngModel)]="toBase" value="8" /> Octal</label>
+        <label><input type="radio" name="to" [(ngModel)]="toBase" value="10" /> Decimal</label>
+        <label><input type="radio" name="to" [(ngModel)]="toBase" value="16" /> Hex</label>
+      </div>
+    </div>
+  
+    <input type="text" [(ngModel)]="inputValue" placeholder="Enter number" />
+    <button (click)="convert()">Convert</button>
+  
+    <div class="result">
+      <strong>Result:</strong> {{ result }}
+    </div>
+  
+    <div class="actions">
+      <button (click)="copyToClipboard()">Copy</button>
+      <button (click)="clear()">Clear</button>
+    </div>
+  </div>
+  

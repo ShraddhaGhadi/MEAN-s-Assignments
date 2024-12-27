@@ -9,6 +9,10 @@ export const routes: Routes = [
         component : TechnologyComponent
     },
     {
+        path : "technology",
+        component : TechnologyComponent
+    },
+    {
         path : "books",
         component : BooksComponent
     },

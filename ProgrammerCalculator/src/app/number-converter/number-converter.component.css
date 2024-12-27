@@ -1,0 +1,48 @@
+.converter-container {
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    background-color: #e9f7ef;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .options {
+    margin-bottom: 15px;
+  }
+  
+  .options label {
+    font-weight: bold;
+    display: block;
+  }
+  
+  input[type='text'] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .result {
+    margin: 15px 0;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .actions button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .actions button:hover {
+    background-color: #0056b3;
+  }
+  
